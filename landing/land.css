@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+sans&display=swap');
+@import url('https://font.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+margin:0;
+padding:0;
+}
+body{
+background-color:#0f1111;
+}
+.header-main{
+background-color:#0f1111;
+height:60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+font-family:'Fira Sans',sans-serif;
+}
+.header-logo{
+font-size:40px;
+margin:50px;
+font-weight:bold;
+}
+.header-nav{
+display:flex;
+margin:50px;
+}
+.header-nav a{
+margin-left:25px;
+text-decoration:none;
+color:white;
+font-size:20px;
+padding:10px 20px;
+}
+.header-nav a:last-child{
+background:#0ef;
+border-radius:5px;
+}
+.header-nav a:hover{
+background:#0ef;
+border-radius:5px;
+transition:0.4s;
+cursor:pointer;
+}
+.line
+{
+height:2px;
+background-color:#0ef;
+border-size:1px solid #0ef;
+}
+.main-content{
+height:92%;
+width:100%;
+background-color:##0f1111;
+display:flex;
+}
+.main-container{
+background-color:#0f1111;
+height:50vh;
+width:180vh;
+margin-top:50px;
+margin-left:100px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+color:white;
+}
+.image img{
+height:50vh;
+-webkit-box-reflect:below 1px linear-gradient(transparent,transparent,#0004);
+}
+.topic{
+height:50vh;
+width:50vh;
+background-color:#0f1111;
+font-family:'Source Code Pro',monospace;
+}
+.topic p{
+font-family:'Source Code Pro',monospace;
+font-size:20px;
+}
+.topic h1{
+margin-top:10px;
+}
+.topic p{
+margin-top:15px;
+}
+.topic button{
+margin:0 3px;
+padding: 9px 14px;
+color: white;
+border-radius: 22px;
+font-size: 21px;
+background-color:red;
+font-weight:bold;
+cursor:pointer;
+margin-top:35px;
+margin-left:85px;
+}
+.insta a{
+color:#0ef;
+}
+.icon
+{
+display:flex;
+justify-content:space-evenly;
+margin-top:50px;
+font-size:50px;
+}
+.copyright{
+background-color:#0093E9;
+font-family:'Fira Sans',sans-serif;
+display:flex;
+justify-content:center;
+height:30px;
+align-items:center;
+background-image:linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
